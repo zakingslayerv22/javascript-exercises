@@ -4,7 +4,7 @@ const palindromes = function (string) {
     let removedPunctuations = string.replace(punctuationsToRemove, '');
     let lowerCasedString = removedPunctuations.toLowerCase();
     let reversedString = lowerCasedString.split('').reverse().join('');
-    return lowerCasedString === reversedString 
+    return lowerCasedString === reversedString; 
 };
 
 // Do not edit below this line
